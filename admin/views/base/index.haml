@@ -1,0 +1,16 @@
+#block-text.block
+  .content
+    %h2.title Dashboard
+    .inner
+      %p.first
+        This is a sample admin page using the Ruby framework, Sinatra, and the Padrino web framework.
+        %span.hightlight
+          This is a modified version of the admin tutorial from the Padrino webpage.
+      %p
+
+        %span.gray
+          This was completed on July 8, 2012.
+      %hr
+      %p
+        So Far you can create, edit, and delete accounts and posts.
+-content_for :sidebar, partial("base/sidebar")

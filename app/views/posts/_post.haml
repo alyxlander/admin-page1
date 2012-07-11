@@ -1,0 +1,7 @@
+.post
+  .title= link_to post.title, url_for(:posts_show, :id => post)
+  .date= time_ago_in_words(post.created_at || Time.now) + ' ago'
+  .body= simple_format(post.body)
+  .details
+    .author Posted by #{post.account.email}
+
