@@ -54,13 +54,18 @@ hr {
 }
 
 #header h1 a:link, #header h1 a:active, #header h1 a:hover, #header h1 a:visited {
-  color: #FFF;
+  color: #FFFABC;
 }
 
 #user-navigation {
   top: auto;
   bottom: 5px;
   right: 25px;
+  
+}
+
+#user-navigation a.hover {
+  text-decoration:underline;
 }
 
 #user-navigation a.logout {
